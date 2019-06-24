@@ -1,5 +1,5 @@
 RELEASE_TYPE ?= patch
-CURRENT_VERSION := $(GIT_TAG)
+CURRENT_VERSION := $(shell git ls-remote --tags origin | awk '{ print $$2}'| sort -nr | head -n1|sed 's/refs\/tags\///g')
 
 ifndef CURRENT_VERSION
   CURRENT_VERSION := 0.0.0
