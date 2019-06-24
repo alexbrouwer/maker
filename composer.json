@@ -1,0 +1,15 @@
+{
+    "name": "par/maker",
+    "description": "PHP Addition Repository Makefile helper",
+    "license": "MIT",
+    "keywords": [
+        "par",
+        "Makefile"
+    ],
+    "authors": [
+        {
+            "name": "Alex Brouwer",
+            "role": "lead"
+        }
+    ]
+}
