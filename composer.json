@@ -2,6 +2,7 @@
     "name": "par/maker",
     "description": "PHP Addition Repository Makefile helper",
     "license": "MIT",
+    "type": "library",
     "keywords": [
         "par",
         "Makefile"
