@@ -15,13 +15,13 @@ version/next:
 
 ## Show next patch version
 version/next/patch:
-	@$(MAKE) version/next VERSION_TYPE=patch
+	@$(MAKE) -s version/next VERSION_TYPE=patch
 
 ## Show next minor version
 version/next/minor:
-	@$(MAKE) version/next VERSION_TYPE=minor
+	@$(MAKE) -s version/next VERSION_TYPE=minor
 
 ## Show next major version
 version/next/major:
-	@$(MAKE) version/next VERSION_TYPE=major
+	@$(MAKE) -s version/next VERSION_TYPE=major
 
