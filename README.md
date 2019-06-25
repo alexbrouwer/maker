@@ -25,14 +25,15 @@ export MAKER_PATH ?= vendor/par/maker
 
 ## Init project
 init:
-	@composer install --no-interaction
+	@exit 0;
 
 ## Clean project
 clean:
 	@rm -rf vendor .phpunit.result.cache clover.xml
 
 ## Build project
-build: clean init
+build: 
+    @composer install --no-interaction
 
 # Test project
 test:
